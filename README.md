@@ -20,8 +20,8 @@ The backend exposes REST APIs and WebSocket endpoints consumed by the Angular fr
 - Secure JWT-based authentication and authorization.
 
 
-Backend:
-
+<b>Backend:</b>
+----
 Spring Boot (Java 21+)
 
 WebSocket + REST controllers
@@ -34,8 +34,8 @@ Redis (Spring Data Redis) for caching
 
 Spring Security (JWT)
 
-DevOps & Tooling:
-
+<b>DevOps & Tooling:</b>
+---
 Docker & Docker Compose (local dev)
 
 GitHub Actions (CI/CD)
