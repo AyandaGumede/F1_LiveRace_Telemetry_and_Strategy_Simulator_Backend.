@@ -20,4 +20,30 @@ The backend exposes REST APIs and WebSocket endpoints consumed by the Angular fr
 - Secure JWT-based authentication and authorization.
 
 
+Backend:
 
+Spring Boot (Java 21+)
+
+WebSocket + REST controllers
+
+Spring Data JPA (PostgreSQL)
+
+InfluxDB Java client
+
+Redis (Spring Data Redis) for caching
+
+Spring Security (JWT)
+
+DevOps & Tooling:
+
+Docker & Docker Compose (local dev)
+
+GitHub Actions (CI/CD)
+
+Terraform (optional, infra provisioning)
+
+Kubernetes (Minikube for local, cloud for deploy)
+
+Prometheus + Grafana (monitoring)
+
+JUnit + Testcontainers (testing)
